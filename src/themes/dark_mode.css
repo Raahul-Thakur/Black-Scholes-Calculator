@@ -1,0 +1,56 @@
+/* General Styling for Dark Mode */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f5f5f5; /* Light text */
+}
+
+/* Header and Titles */
+h1, h2, h3 {
+    color: #76c7c0; /* Aqua for headers */
+}
+
+/* Sidebar Styling */
+.stSidebar {
+    background-color: #1e1e1e; /* Dark sidebar */
+    color: #f5f5f5; /* Light text */
+}
+
+/* Metric Cards Styling */
+h4, p {
+    text-align: center;
+}
+
+h4 {
+    color: #76c7c0; /* Aqua text */
+    font-size: 18px;
+}
+
+.metric-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff; /* White for values */
+}
+
+/* Cards for Greeks */
+.metric-card {
+    background-color: #333333; /* Dark gray card background */
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    background-color: #76c7c0; /* Aqua buttons */
+    color: #121212; /* Dark text */
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: #63b3a0; /* Slightly darker on hover */
+}

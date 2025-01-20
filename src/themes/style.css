@@ -1,0 +1,57 @@
+/* General Styling */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f9f9f9; /* Light background */
+    color: #333333; /* Dark text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Titles */
+h1, h2, h3 {
+    color: #004d80; /* Dark blue text for headers */
+}
+
+/* Sidebar Styling */
+.stSidebar {
+    background-color: #ffffff; /* White sidebar */
+    color: #333333; /* Dark text */
+}
+
+/* Metrics Styling */
+.stMetric {
+    background-color: #eaf4ff; /* Light blue metric cards */
+    color: #004d80; /* Dark blue text */
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Tabs */
+.stTabs {
+    background-color: #ffffff; /* White tab background */
+    color: #333333; /* Dark text */
+}
+
+/* Inputs and Sliders */
+input, select, .stSlider {
+    background-color: #ffffff; /* White input fields */
+    color: #333333; /* Dark text */
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Buttons */
+button {
+    background-color: #004d80; /* Blue buttons */
+    color: #ffffff; /* White text */
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+/* General Layout */
+.stApp {
+    padding: 20px;
+}
