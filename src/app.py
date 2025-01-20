@@ -8,7 +8,10 @@ from src.utils.risk_metrics import calculate_var, calculate_expected_shortfall
 from src.utils.historical_data import fetch_historical_data
 from src.components.tooltips import add_tooltips
 import datetime
+<<<<<<< HEAD
 assert isinstance(datetime.date(2020, 1, 1), datetime.date)
+=======
+>>>>>>> a1f25f72dc444245fe9f6d000c87098f30c9faaa
 
 def render_application():
     """
