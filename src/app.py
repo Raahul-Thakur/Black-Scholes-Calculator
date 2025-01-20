@@ -176,6 +176,3 @@ def render_application():
 
     # Add tooltips for guidance
     add_tooltips()
-
-    # Add tooltips for guidance
-    add_tooltips()
