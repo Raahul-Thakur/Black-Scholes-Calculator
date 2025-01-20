@@ -57,4 +57,4 @@ Clone the repository:
  ```
 
 ### **Deployment**
-https://black-scholes-heston-sabr-calculator.streamlit.app/
+https://advancedfinancialcalculator.streamlit.app/
