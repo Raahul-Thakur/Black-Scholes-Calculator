@@ -7,6 +7,8 @@ from src.utils.greeks import calculate_greeks
 from src.utils.risk_metrics import calculate_var, calculate_expected_shortfall
 from src.utils.historical_data import fetch_historical_data
 from src.components.tooltips import add_tooltips
+import datetime
+assert isinstance(datetime.date(2020, 1, 1), datetime.date)
 
 def render_application():
     """
@@ -145,8 +147,8 @@ def render_application():
     with tab5:
         st.subheader("🔍 Historical Data")
         ticker = st.text_input("Enter Stock Ticker (e.g., AAPL)", value="AAPL")
-        start_date = st.date_input("Start Date", value="2020-01-01")
-        end_date = st.date_input("End Date", value="2023-01-01")
+        start_date = st.date_input("Start Date", value=datetime.date(2020, 1, 1))
+        end_date = st.date_input("End Date", value=datetime.date(2023, 1, 1))
 
         if st.button("Fetch Data"):
             historical_data = fetch_historical_data(ticker, start_date, end_date)
